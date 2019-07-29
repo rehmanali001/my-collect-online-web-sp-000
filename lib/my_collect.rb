@@ -5,4 +5,5 @@ def my_collect(collect)
   collection << yield (collect[i]).upcase
   i += 1
 end
+collection
 end
