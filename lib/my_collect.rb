@@ -1,5 +1,5 @@
 def my_collect(collect)
-  collectio = []
+  collection = []
   i = 0
   while i < collect.length
   collection << yield (collect[i]).upcase
